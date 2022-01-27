@@ -1823,7 +1823,7 @@ footer .bottom a:hover {
 
 
     #navigation {
-        display: block;
+        display: none;
         position: absolute;
         z-index: -1;
         top: 70px;
@@ -1834,6 +1834,7 @@ footer .bottom a:hover {
 
     #navigation.display{
         left: 0;
+        display: block;
     }
 
     #navigation>ul {
